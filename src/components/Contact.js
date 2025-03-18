@@ -300,14 +300,11 @@ const Contact = () => {
               Whether you have a question or just want to say hi, feel free to drop a message!
             </ContactText>
             <ContactDetails>
-              <ContactItem href="mailto:chinthalanaveen504@gmail.com">
+              <ContactItem href="mailto:prashanthinallapu2002@gmail.com">
                 <FaEnvelope />
-                <span>chinthalanaveen504@gmail.com</span>
+                <span>prashanthinallapu2002@gmail.com</span>
               </ContactItem>
-              {/* <ContactItem href="tel:+1234567890">
-                <FaPhone />
-                <span>+91 9494603115</span>
-              </ContactItem> */}
+            
             </ContactDetails>
            
           </ContactInfo>

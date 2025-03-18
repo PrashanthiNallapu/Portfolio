@@ -38,10 +38,10 @@ const Footer = () => {
     <FooterContainer>
       <FooterContent>
         <SocialLinks>
-          <SocialLink href="https://github.com/chnaveen45" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://github.com/PrashanthiNallapu" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </SocialLink>
-          <SocialLink href="https://www.linkedin.com/in/chinthalanaveen/" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://www.linkedin.com/in/prashanthi-nallapu-170947253" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </SocialLink>
         </SocialLinks>

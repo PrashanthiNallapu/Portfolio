@@ -233,15 +233,15 @@ const Projects = () => {
       description: "A modern portfolio website built with React.js, featuring responsive design and interactive elements.",
       image: "/images/vt.png",
       tech: ["React", "CSS","Node.js","Express.js","MongoDB","Github"],
-      github: "https://github.com/chnaveen45/Vishwasri-Website",
+      // github: "https://github.com/chnaveen45/Vishwasri-Website",
       live: "https://vishcom.net/"
     },
     {
       title: "Mobile App",
-      description: "A React Native mobile app with intuitive UI/UX and seamless navigation for service management.",
-      image: "/images/app.jpg",
+      description: "A React Native jewelry app with an elegant UI/UX and seamless navigation, offering a smooth browsing experience for discovering and managing jewelry collections.",
+      image: "/images/app.png",
       tech: ["React-Native", "Github"],
-      github: "https://github.com/vishwasri-technologies/vt-app/tree/finally",
+      // github: "https://github.com/vishwasri-technologies/vt-app/tree/finally",
       
     }
   ];

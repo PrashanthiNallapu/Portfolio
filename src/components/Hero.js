@@ -260,8 +260,8 @@ const TextSpan = styled(motion.span)`
 
 const Hero = () => {
   const titleFirstLine = "Hi, I'm";
-  const titleSecondLine = "Naveen Chinthala";
-  const subtitleText = "Full Stack Developer";
+  const titleSecondLine = "Prashanthi Nallapu";
+  const subtitleText = "Software Developer";
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -360,7 +360,7 @@ const Hero = () => {
           }}
         >
           <SocialIcon 
-            href="https://www.linkedin.com/in/chinthalanaveen/" 
+            href="https://www.linkedin.com/in/prashanthi-nallapu-170947253" 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ 
@@ -373,7 +373,7 @@ const Hero = () => {
             <FaLinkedin />
           </SocialIcon>
           <SocialIcon 
-            href="https://github.com/chnaveen45" 
+            href="https://github.com/PrashanthiNallapu" 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ 
@@ -387,8 +387,8 @@ const Hero = () => {
           </SocialIcon>
           <CVButton
             as="a"
-            href="/resume/Naveen.pdf"
-            download="Naveen_Resume.pdf"
+            href="/resume/RESUME-PRASHANTHI-NALLAPU.pdf"
+            download="Prashanthi_Resume.pdf"
             whileHover={{ 
               scale: 1.05, 
               y: -5,
@@ -406,7 +406,7 @@ const Hero = () => {
         variants={imageVariants}
       >
         <HeroImage 
-          src="/images/man.png" 
+          src="/images/women.jpg" 
           alt="Hero Illustration"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}

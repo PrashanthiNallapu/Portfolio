@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { FaCode, FaServer, FaDatabase, FaLaptopCode } from "react-icons/fa";
+import { FaCode,  FaLaptopCode } from "react-icons/fa";
 
 const AboutSection = styled.section`
   min-height: 100vh;
@@ -146,10 +146,7 @@ const About = () => {
         >
           <Title variants={itemVariants}>About Me</Title>
           <Description variants={itemVariants}>
-            Passionate about modern web technologies, I bring expertise in both
-            frontend and backend development. With strong problem-solving
-            skills, I create responsive, user-friendly applications using the
-            latest tools and best practices.
+          Passionate about modern web technologies, I specialize in frontend development, creating responsive and user-friendly applications. With strong problem-solving skills, I build seamless user experiences using the latest tools, frameworks, and best practices in frontend development.
           </Description>
           <SkillsGrid variants={containerVariants}>
             <SkillCard variants={itemVariants} whileHover={{ scale: 1.02 }}>
@@ -159,7 +156,7 @@ const About = () => {
                 <p> HTML5, CSS3, React.js, JavaScript, React-Native </p>
               </SkillInfo>
             </SkillCard>
-            <SkillCard variants={itemVariants} whileHover={{ scale: 1.02 }}>
+            {/* <SkillCard variants={itemVariants} whileHover={{ scale: 1.02 }}>
               <FaServer />
               <SkillInfo>
                 <h3>Backend Development</h3>
@@ -175,7 +172,7 @@ const About = () => {
                 <h3>Database Management</h3>
                 <p>MongoDB, database design</p>
               </SkillInfo>
-            </SkillCard>
+            </SkillCard> */}
             <SkillCard variants={itemVariants} whileHover={{ scale: 1.02 }}>
               <FaCode />
               <SkillInfo>
