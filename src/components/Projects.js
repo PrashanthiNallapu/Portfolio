@@ -243,6 +243,14 @@ const Projects = () => {
       tech: ["React-Native", "Github"],
       // github: "https://github.com/vishwasri-technologies/vt-app/tree/finally",
       
+    },
+    {
+      title: "Responsive Website",
+      description: "A React Native jewelry website with an elegant UI/UX and seamless navigation, offering a smooth browsing experience for discovering and managing jewelry collections.",
+      image: "/images/website.png",
+      tech: ["React-Native", "Github"],
+      // github: "https://github.com/vishwasri-technologies/vt-app/tree/finally",
+      
     }
   ];
 
